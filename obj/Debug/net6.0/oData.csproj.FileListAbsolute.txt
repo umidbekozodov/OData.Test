@@ -25,3 +25,9 @@ D:\VScodeProject\oData\obj\Debug\net6.0\refint\oData.dll
 D:\VScodeProject\oData\obj\Debug\net6.0\oData.pdb
 D:\VScodeProject\oData\obj\Debug\net6.0\oData.genruntimeconfig.cache
 D:\VScodeProject\oData\obj\Debug\net6.0\ref\oData.dll
+D:\VScodeProject\oData\bin\Debug\net6.0\Microsoft.AspNetCore.OData.dll
+D:\VScodeProject\oData\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\VScodeProject\oData\bin\Debug\net6.0\Microsoft.OData.Core.dll
+D:\VScodeProject\oData\bin\Debug\net6.0\Microsoft.OData.Edm.dll
+D:\VScodeProject\oData\bin\Debug\net6.0\Microsoft.OData.ModelBuilder.dll
+D:\VScodeProject\oData\bin\Debug\net6.0\Microsoft.Spatial.dll

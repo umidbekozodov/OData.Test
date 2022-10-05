@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OData.Query;
 using oData.Models;
 using oData.Services;
 
@@ -14,14 +15,16 @@ public class StudentsController : ControllerBase
     {
         this.studentService = studentService;
     }
+
     [HttpGet]
+    [EnableQuery]
     public ActionResult<IQueryable<Student>> GetAllStudent()
     {
         IQueryable<Student> retrievedStudents = 
             this.studentService.RetrieveAllStudents();
 
         return Ok(retrievedStudents);
-        
+
     }
     
 }

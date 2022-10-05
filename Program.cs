@@ -1,8 +1,10 @@
+using Microsoft.AspNetCore.OData;
 using oData.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddOData(options =>
+    options.Select().Filter());
 builder.Services.AddTransient<IStudentService, StudentService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
